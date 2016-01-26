@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+        RewriteCond %{REQUEST_URI} !res/[a-zA-Z]+/
+        RewriteRule ^(.*)$ index.php?route=$1 [L,QSA,NC]
+</IfModule>

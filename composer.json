@@ -1,0 +1,80 @@
+{
+    "name": "fr/git-admin",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "js/jquery",
+                "version": "2.1.4",
+                "dist": {
+                    "type": "file",
+                    "url": "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "bootstrap",
+                "version": "3.3.6",
+                "dist": {
+                    "url": "https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "js/diff2html",
+                "version": "1.0.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://raw.githubusercontent.com/rtfpessoa/diff2html/8d86a15d6900dd26995d72a17244943cf8ed2b13/dist/diff2html.min.js"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "css/diff2html",
+                "version": "1.0.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://raw.githubusercontent.com/rtfpessoa/diff2html/8d86a15d6900dd26995d72a17244943cf8ed2b13/dist/diff2html.min.css"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "js/highlight",
+                "version": "9.1.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "css/highlight",
+                "version": "9.1.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "js/jquery": "*",
+        "js/diff2html": "*",
+        "js/highlight": "*",
+        "css/diff2html": "*",
+        "css/highlight": "*",
+        "bootstrap": "*"
+    }
+}
