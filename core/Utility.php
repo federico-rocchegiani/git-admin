@@ -7,6 +7,7 @@ class Utility
 
     public static $ROOT = '';
     public static $CORE = '';
+    public static $RES = '';
     public static $APP = '';
     public static $TEMPLATES = '';
     private static $PATH = '';
@@ -16,6 +17,7 @@ class Utility
     {
         self::$ROOT = preg_replace('#/core$#', '/', __DIR__);
         self::$CORE = self::$ROOT . 'core/';
+        self::$RES = self::$ROOT . 'res/';
         self::$APP = self::$ROOT . 'app/';
         self::$TEMPLATES = self::$APP . 'templates/';
         self::$PATH = trim(shell_exec('echo $PATH'));
