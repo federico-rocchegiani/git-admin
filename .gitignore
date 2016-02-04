@@ -1,4 +1,3 @@
-.DS_Store
 
 composer.lock
 
@@ -6,6 +5,10 @@ res/git.log
 res/projects.json
 res/user.conf
 
+vendor
+!vendor/index.html
+
+.DS_Store
 nbproject
 *#*#
 *~
