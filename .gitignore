@@ -1,7 +1,10 @@
 .DS_Store
 
-res/projects.json
+composer.lock
+
 res/git.log
+res/projects.json
+res/user.conf
 
 nbproject
 *#*#
